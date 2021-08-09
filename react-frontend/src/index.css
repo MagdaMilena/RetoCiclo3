@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(256, 256, 256);
+    font-family: sans-serif;
+}
+
+body { 
+    background-image: url("fondo2.jpg");
+    background-color: #cccccc;
+}
+
+h1 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li,
+label,
+input,
+button {
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+table {
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td button:nth-child(2) {
+    margin-left: 10px;
+}
+
+input,
+select {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.btn-blue {
+    color: white;
+    background-color: rgb(74, 128, 182);
+    border: 1px solid dodgerblue;
+}
+
+.btn-blue:hover {
+    color: rgb(6, 87, 168);
+    background-color: white;
+}
+
+.btn-orange {
+    color: white;
+    background-color: rgb(202, 171, 113);
+    border: 1px solid orange;
+}
+
+.btn-orange:hover {
+    color: rgb(156, 110, 25);
+    background-color: white;
+}
+
+.btn-red {
+    color: white;
+    background-color: salmon;
+    border: 1px solid salmon;
+}
+
+.btn-red:hover {
+    color: salmon;
+    background-color: white;
+}
